@@ -1,0 +1,161 @@
+*{
+    --black: #000000;
+    --white: #ffff;
+    --oswald: "Oswald", sans-serif;
+  
+}
+
+.header{
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5em 0;
+    font-family: var(--oswald);
+    border-bottom: 1px solid var(--white);
+}
+
+.header__img{
+    width: 5%;
+}
+
+.header__list{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__item{
+    padding: 0 1.9em;
+}
+
+.header__link{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header__link:hover{
+    transition: 1s;
+    color: rgb(160, 141, 141);
+}
+
+
+
+.myself{
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(/images/bgmyself.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--black);
+    font-family: var(--oswald);
+}
+
+.myself__img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.myself__div{
+    text-align: center;
+    color: var(--black);
+    align-items: center;
+    width: 50%;
+}
+
+.myself__title{
+    font-size: 3em;
+    padding-bottom: .2em;
+    border-bottom: 1px solid var(--black);
+    padding-left: 1em;
+}
+
+.myself__subtitle{
+    font-size: 1.5em;
+    padding-top: .5em;
+    padding-left: 2em;
+}
+
+.myself__timp{
+    width: 20%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;;
+    float: right;
+    width: 30%;
+    padding-left: 1em;
+    border-left: 1px solid black;
+}
+
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+
+.bio__div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bio__img{
+    padding: 2em;
+    width: 10%;
+}
+
+.bio__title{
+    font-family: var(--oswald);
+    font-size: 3em;
+    padding-bottom: .2em;
+    border-bottom: 1px solid var(--black);
+}
+
+.bio__text{
+    padding-left: 2em;
+    font-family: var(--oswald);
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portfolio__img{
+    padding: 2em;
+    width: 5%;
+}
+
+.portfolio__title{
+    font-family: var(--oswald);
+    font-size: 3em;
+    padding-bottom: .2em;
+    border-bottom: 1px solid var(--black);
+}
+
+.portfolio__text{
+    padding-left: 2em;
+    font-family: var(--oswald);
+    width: 70%;
+    font-size: 1.2em;
+}
+
+
